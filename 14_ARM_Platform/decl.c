@@ -18,6 +18,7 @@ int parse_type(int t) {
   if (t == T_VOID)
     return (P_VOID);
   fatald("Illegal type, token", t);
+  //多个
   return(0);	// Keep -Wall happy
 }
 
